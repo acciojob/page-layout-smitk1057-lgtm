@@ -1,11 +1,16 @@
 
 import React from "react";
 import './../styles/App.css';
+import Header from "./Header";
+import Section from "./Section";
+import Footer from "./Footer"
 
-const App = () => {
+const App = () => {     
   return (
     <div>
-        {/* Do not remove the main div */}
+    <Header />
+<Section />
+<Footer />
     </div>
   )
 }
